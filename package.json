@@ -1,0 +1,30 @@
+{
+  "name": "quickcheck-ts",
+  "version": "0.0.0",
+  "description": "Property based testing with TypeScript",
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "author": "Fedor Nezhivoi <gyzerok@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "rm -rf lib/* && tsc",
+    "test": "mocha -r ts-node/register src/**/*.test.ts"
+  },
+  "devDependencies": {
+    "@types/chai": "^3.4.34",
+    "@types/mocha": "^2.2.39",
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "ts-node": "^2.1.0",
+    "typescript": "^2.1.6"
+  },
+  "keywords": [
+    "typescript",
+    "property based testing",
+    "generative testing",
+    "quickcheck"
+  ]
+}
