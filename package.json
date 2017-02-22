@@ -1,6 +1,6 @@
 {
   "name": "quickcheck-ts",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Property based testing with TypeScript",
   "files": [
     "lib"
